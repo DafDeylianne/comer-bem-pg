@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+    --bege: #F8ECDC;
+    --verde-principal: #35C574
+    --verde-secundario: #449166;
+    --verde-terceiro: #35C442;
+    --verde-quarto: #154F2E;
+    --verde-quinto: #207846;
+    --vermelho: #E63136;
+    --letra-principal: "Concert One";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: var(--bege);
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    background: #35C57469;
+    justify-content: center;
+    height: 15rem;
+    width: 30rem;
+    padding: 7rem;
+    margin-left: 18rem;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 10rem;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+}
+
+.titulo-entrar {
+    font-size: 3rem;
+    font-family: var(--letra-principal);
+    color: #35C57469;
+    text-align: center;
+    margin-top: -2rem;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.email {
+    height: 1.5rem;
+    border: 1px solid var(--verde-quarto);
+    border-radius: 10rem;
+    width: 25rem;
+}
+
+.email-entrar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.email-entrar i {
+    margin-right: .5rem;
+}
+
+.senha {
+    height: 1.5rem;
+    border: 1px solid var(--verde-quarto);
+    border-radius: 10rem;
+    width: 25rem;
+}
+
+.senha-entrar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.senha-entrar i {
+    margin-right: .5rem;
+}
+.botao-entrar {
+    padding: .8rem;
+    width: 10rem;
+    font-family: var(--letra-principal);
+    border: 1px solid var(--verde-quarto);
+    margin-left: 30%;
+    border-radius: 10px;
+    background: var(--verde-terceiro);
+    color: var(--bege);
+    font-size: 1.3rem;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.botao-entrar:hover {
+    background: var(--bege);
+    color: var(--verde-quarto);
+}
+
+.entrar-esqueci {
+    color: var(--verde-quarto);
+    font-family: var(--letra-principal);
+    font-size: 1.2;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.entrar-cadastrar {
+    color: var(--verde-quarto);
+    font-family: var(--letra-principal);
+    font-size: 1.2;
+    margin-top: 1rem;
+    text-align: center;
+}
